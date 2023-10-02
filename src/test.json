@@ -1,0 +1,112 @@
+{
+    "uiInfo": [
+        {
+            "tag": "div",
+            "style": {
+                "display": "flex",
+                "alignItems": "center",
+                "padding": "2rem",
+                "flexDirection": "column",
+                "color": "grey"
+            },
+            "children": [
+                {
+                    "tag": "p",
+                    "text": "Sample UI Generator",
+                    "style": {
+                        "fontSize": "2rem"
+                    }
+                },
+                {
+                    "tag": "div",
+                    "style": {
+                        "padding": "1rem",
+                        "borderRadius": "0.75rem",
+                        "backgroundColor": "#f0f0f0"
+                    },
+                    "children": [
+                        {
+                            "tag": "div",
+                            "children": [
+                                {
+                                    "tag": "span",
+                                    "text": "Enter your name :",
+                                    "style": {
+                                        "fontSize": "1.25rem",
+                                        "color": "black"
+                                    }
+                                },
+                                {
+                                    "tag": "input",
+                                    "key": "Name",
+                                    "value": "",
+                                    "placeholder": "Enter your name",
+                                    "style": {
+                                        "width": "10rem",
+                                        "marginLeft": "1rem"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "tag": "div",
+                            "style": {
+                                "marginTop": "1rem"
+                            },
+                            "children": [
+                                {
+                                    "tag": "span",
+                                    "text": "Phone number :",
+                                    "style": {
+                                        "fontSize": "1.25rem",
+                                        "color": "black"
+                                    }
+                                },
+                                {
+                                    "tag": "input",
+                                    "placeholder": "Enter your phone number",
+                                    "key": "number",
+                                    "value": 99384763284,
+                                    "type": "number",
+                                    "style": {
+                                        "width": "10rem",
+                                        "marginLeft": "2rem"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "tag": "div",
+                            "style": {
+                                "marginTop": "1rem"
+                            },
+                            "children": [
+                                {
+                                    "tag": "span",
+                                    "text": "Enter your age :",
+                                    "style": {
+                                        "fontSize": "1.25rem",
+                                        "color": "black"
+                                    }
+                                },
+                                {
+                                    "tag": "input",
+                                    "key": "age",
+                                    "value": 2,
+                                    "placeholder": "Enter your age",
+                                    "type": "range",
+                                    "min": 0,
+                                    "max": 10,
+                                    "style": {
+                                        "width": "10rem",
+                                        "marginLeft": "2.1rem"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
