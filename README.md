@@ -1,6 +1,6 @@
 # Dynamic UI Builder with JSON
 
-Welcome to the Dynamic UI Builder with JSON repository! This project allows you to create dynamic and highly customizable user interfaces for your applications using JSON configurations.
+Welcome to the Dynamic UI Builder with JSON ! This project allows you to create dynamic and highly customizable user interfaces for your applications using JSON configurations.
 
 
 ### Prerequisites
